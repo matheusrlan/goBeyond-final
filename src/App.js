@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Main from './components/content';
+import Main from './components/main/content';
 import Footer from './components/footer/footer';
 import Header from './components/header';
 
