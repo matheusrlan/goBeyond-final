@@ -5,7 +5,7 @@ function Header() {
     return (
         <section className="header">
             <div className="logo">
-                <img src="./images/logo-corebiz-global.svg"></img>
+                <img src="./images/logo-corebiz-global.svg" alt="logo-corebiz"></img>
             </div>
             <div className="menu">
                 <a className="link" target="_blank" rel="noreferrer" href="https://www.corebiz.ag/pt/about/">

@@ -1,0 +1,80 @@
+.footer {
+    display: flex;
+    width: 100%;
+}
+
+.block1 {
+    width: 337px;
+    height: 200px;
+    margin-left: 78px;
+    margin-top: 30px;
+}
+
+.block1 p {
+    font-size: 0.75em;
+    margin-bottom: 65px;
+}
+
+.block1 a {
+    padding: 20px;
+    margin-left: -15px;
+}
+
+.logocorebiz {
+    width: 115px;
+    margin-bottom: 10px;
+}
+
+.footer-menu {
+    width: 300px;
+    height: 200px;
+}
+
+.side-menu {
+    margin-top: 30px;
+    width: 200px;
+}
+
+.footer-menu ul li {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    text-decoration:none;
+    color:black;
+    font-size:14px;
+    font-weight: bold;
+}
+
+.table {
+    width: 1283px;
+    height: 250px;
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 0px;
+    margin: auto;
+    background-color: #f4f4f4;
+}
+
+.address {
+    margin-top: 5%;
+}
+
+.table th {
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px 0px 0px 40px;
+}
+
+.table td {
+    margin: auto;
+    width: 320px;
+    font-weight: medium;
+    font-size: 1em;
+    padding: 0px 0px 0px 40px
+}
