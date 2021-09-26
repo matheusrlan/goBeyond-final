@@ -28,27 +28,30 @@ function Footer() {
                     <li><a className="link" target="_blank" rel="noreferrer" href="https://www.corebiz.ag/pt/contato/">contato</a></li>
                 </ul>     
             </div>
-            <div className="table">
-                <table className="address">
-                    <tr>
-                        <th>.Brasil</th>
-                        <th>.Argentina</th>
-                        <th>.México</th>
-                        <th>.Chile</th>
-                    </tr>
-                    <tr>
-                        <td>Avenida Andrômeda, 2000. Bloco 6 e 8 Alphaville SP</td>
-                        <td>Soler 5518, 3 Piso C1425BYF Palermo Hollywood CABA</td>
-                        <td>Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX</td>
-                        <td>Roberto del Río 1137, Providencia.</td>
-                    </tr>
-                    <tr>
-                        <td>R. Ifigenia Maria de Oliveira, 3793 Jr. Piratininga Franca SP</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
+            <div className="location">
+                <div className="add-loc">
+                    <address className="add">
+                        <h2>.Brasil</h2>
+                        <p> Avenida Andrômeda, 2000. Bloco 6 e 8 Alphaville SP </p>
+                        <p> R. Ifigenia Maria de Oliveira, 3793 Jr. Piratininga Franca SP </p>
+                    </address>
+
+                    <address className="add">
+                        <h2>.Argentina</h2>
+                        <p> Soler 5518, 3 Piso C1425BYF Palermo Hollywood CABA </p>
+                    </address>
+
+                    <address className="add">
+                        <h2>.México</h2>
+                        <p> Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo,
+                        11520 Ciudad de México, CDMX </p>
+                    </address>
+
+                    <address className="add">
+                        <h2>.Chile</h2>
+                        <p> Roberto del Río 1137, Providencia. </p>
+                    </address> 
+                </div>
             </div>
         </section>
     )
