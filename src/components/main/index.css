@@ -66,3 +66,41 @@
     border: 3px solid white;
 }
 
+@media (max-width: 1024px) {
+
+    .main {
+      height: 90vh;
+      flex-direction: column;
+    }
+
+    .left {
+      width: 50%;
+      margin-top: 10%;
+    }  
+
+    .left h1 {
+        font-size: 30px;
+    }
+
+    .left button {
+        width: 40%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider img {
+        width: 120%;
+    }
+
+    .right {
+        width: 90vh;
+    }
+
+    .right img{
+        width: 60%;
+        height: 65%;
+    }
+
+  }

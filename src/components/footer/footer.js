@@ -7,7 +7,7 @@ function Footer() {
             <div className="block1">
                 <img src="./images/logo-corebiz-global-1.svg" className="logocorebiz"></img>
                 <p>direitos reservados, corebiz 2021</p>
-            
+                <div>
                 <a className="link" target="_blank" rel="noreferrer" href="https://www.facebook.com/corebiz.ag/">
                     <img src="./images/Icon awesome-facebook-f.svg" alt="facebook" className="icon" />
                 </a>
@@ -17,6 +17,7 @@ function Footer() {
                 <a className="link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/corebiz-brasil/">
                     <img src="./images/Icon awesome-linkedin-in.svg" alt="linkedin" className="icon" />
                 </a>
+                </div>
             </div>
                 
             <div className="footer-menu">
