@@ -5,7 +5,7 @@ function Footer() {
     return(
         <section className="footer">
             <div className="block1">
-                <img src="./images/logo-corebiz-global-1.svg" className="logocorebiz"></img>
+                <img src="./images/logo-corebiz-global-1.svg" className="logocorebiz" alt="logo corebiz"></img>
                 <p>direitos reservados, corebiz 2021</p>
                 <div>
                 <a className="link" target="_blank" rel="noreferrer" href="https://www.facebook.com/corebiz.ag/">
