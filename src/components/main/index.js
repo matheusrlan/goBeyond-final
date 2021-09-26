@@ -25,9 +25,10 @@ function PostList(){
      return (
         <>
         <section className='main'>
-           <div className="left">
+                <div className="title">
                         <h1>{fotos[indice].title}</h1>
-                <a href="https://www.corebiz.ag/pt/" target="_blank"><button>veja mais</button></a>
+                <a href="https://www.corebiz.ag/pt/" target="_blank">veja mais</a>
+                </div>
                 <div className="container-img">
                     <div className="slider">
                         <img className={indice === 0 ? "active" : "normal"} onClick={ () => setIndice(0) } src={fotos[0].thumb}/>
@@ -42,7 +43,7 @@ function PostList(){
                         <img className={indice === 3 ? "active" : "normal"} onClick={ () => setIndice(3) } src={fotos[3].thumb}/>
                     </div>
                 </div>
-           </div>
+           
 
            <div className="right">
                <img className="c-banner" src={fotos[indice].imgUrl}></img>

@@ -1,53 +1,60 @@
 .main {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 700px;
+    display: grid;
+    grid-template-columns: 30% 70%;
     background-color: black;
+    grid-template-rows: 50vh 20vh;
+    grid-template-areas: "title banner" 
+                         "slider banner";
 }
 
 .main h1 {
     color: white;
 }
 
-.left {
+.title {
+    grid-area: title;
     display: flex;
-    width: 40vw;
-    height: 500px;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
+    width: 100%;
 }
 
-.left h1 {
-    width: 480px;
+.title h1 {
     font-size: 60px;
-    margin-left: 81px;
 }
 
-.left button {
-    width: 195px;
+.title a {
+    width: 50%;
     height: 50px;
-    border-radius: 40px;
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 50px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right {
+    grid-area: banner;
     display: flex;
-    width: 60vw;
-    height: 700px;
-    align-items: center;
+    width: 100%;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .c-banner {
-    width: 980px;
+    width: 80%;
     height: 590px;
-    border-radius: 20px; 
+    border-radius: 20px;
+    object-fit: cover; 
 }
 
 .container-img{
+    grid-area: slider;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -55,11 +62,11 @@
 
 .slider {
     display: inline;
-    margin: 10px;
+    margin-left: 30px;
 }
 
 .slider img{
-    width: 90%;
+    width: 100%;
 }
 
 .slider .active {
@@ -70,20 +77,9 @@
 
     .main {
       height: 90vh;
-      flex-direction: column;
-    }
-
-    .left {
-      width: 50%;
-      margin-top: 10%;
-    }  
-
-    .left h1 {
-        font-size: 30px;
-    }
-
-    .left button {
-        width: 40%;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: "title" "banner" "slider";
     }
 
     .slider {
@@ -91,16 +87,18 @@
     }
 
     .slider img {
-        width: 120%;
+        width: 100px;
     }
 
     .right {
-        width: 90vh;
+        width: 90%;
+        height: 350px;
+        margin: auto;
     }
 
     .right img{
-        width: 60%;
-        height: 65%;
+        width: 80%;
+        height: 85%;
     }
 
   }
