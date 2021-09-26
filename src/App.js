@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Main from './components/main/content';
 import Footer from './components/footer/footer';
-import Header from './components/header';
+import Header from './components/header/header';
+import PostList from './components/main';
 
 function App() {
   return (
     <div>
       <Header/>
-      <Main/>
+      <PostList/>
       <Footer/>
     </div>
   );
