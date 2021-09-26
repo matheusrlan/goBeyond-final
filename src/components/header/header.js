@@ -7,6 +7,13 @@ function Header() {
             <div className="logo">
                 <img src="./images/logo-corebiz-global.svg" alt="logo-corebiz"></img>
             </div>
+            <div>
+            <div class="menu-toggle">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three" ></div>
+            </div>
+
             <div className="menu">
                 <ul>
                     <li><a className="link" target="_blank" rel="noreferrer" href="https://www.corebiz.ag/pt/about/">a corebiz</a></li>
@@ -14,6 +21,7 @@ function Header() {
                     <li><a className="link" target="_blank" rel="noreferrer" href="https://www.corebiz.ag/pt/cases/">cases</a></li>
                     <li><a className="link" target="_blank" rel="noreferrer" href="https://www.corebiz.ag/pt/contato/">contato</a></li>
                 </ul>
+            </div>
             </div>
         </section>
     )
