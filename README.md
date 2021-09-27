@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Go Beyond -Desafio 4 (FINAL)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Como desafio final foi proposto fazermos um site o mais proximo possivel a isso:
 
-## Available Scripts
+Link xd Desktop: https://xd.adobe.com/view/e100320d-9539-4cd9-9146-e27f75204e69-b453/
 
-In the project directory, you can run:
+Link xd Mobile: https://xd.adobe.com/view/e100320d-9539-4cd9-9146-e27f75204e69-b453/screen/02609f96-fe10-4a61-b495-782296f4c193/
 
-### `yarn start`
+Link da URL de exemplo: https://go-beyond-2021-final-challenge.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Passo a Passo
 
-### `yarn test`
+Crie uma home page responsiva usando React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Com o header contendo o logo da Corebiz alinhado à esquerda e um menu de navegação horizontal na direita.
 
-### `yarn build`
+No conteúdo principal deverá conter:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Na coluna da direita, uma imagem grande, dinâmica.
+- Na coluna da esquerda, um título dinâmico, seguido por um botão de veja mais que redireciona para o site da Corebiz. Abaixo, uma lista de pequenas imagens dinâmicas que troca o título dinâmico e a imagem grande dinâmica quando clica em cada uma.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+No footer deverá conter:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- O logo da Corebiz seguido pelo texto de direitos reservados e os ícones de redes sociais da Corebiz com seus links.
+- Um menu de navegação vertical.
+- A lista de endereços da Corebiz, separadas em colunas, por países.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### O que usei para fazer o projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React.js
+HTML
+JavaScript
+CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+hooks como:
+useState
+useEffect
+axios
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+utilizei tambem:
+grid-template
+grid-area
 
-## Learn More
+### Utilizei esta API como fonte de imagens e titulo:
+Link da API: https://my-json-server.typicode.com/VitorHugoG/api-dados/dados
+Feita pelo Vitor Hugo (" Diga-se de Passagem.. Uma Ótima Pessoa ") segue o github dele: https://github.com/VitorHugoG
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Abaixo o link do site criando com base nos modelos acima por mim:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#https://go-beyond-final.vercel.app/
