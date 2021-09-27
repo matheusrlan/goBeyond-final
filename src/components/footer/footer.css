@@ -4,10 +4,12 @@
 }
 
 .block1 {
-    width: 337px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     height: 200px;
-    margin-left: 78px;
-    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .block1 p {
@@ -16,8 +18,16 @@
 }
 
 .block1 a {
-    padding: 20px;
+    padding: 15px;
     margin-left: -15px;
+}
+
+.icon {
+    width: 20px;
+}
+
+.iconf {
+    width: 13px;
 }
 
 .logocorebiz {
@@ -28,6 +38,7 @@
 .footer-menu {
     width: 300px;
     height: 200px;
+    margin-right: 2%;
 }
 
 .side-menu {
